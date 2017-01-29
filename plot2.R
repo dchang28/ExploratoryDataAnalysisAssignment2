@@ -20,8 +20,7 @@ BaltimoretotalNEI<-tapply(BaltimoreNEI$Emissions, BaltimoreNEI$year, sum)
 png(filename = './plot2.png')
 plot(names(BaltimoretotalNEI), (BaltimoretotalNEI), type = "l", xlab = "Year",
      ylab="PM2.5 Emissions (Tons)", main="PM2.5 Emission per Year for Baltimore
-     City"
-)
+     City")
 
 dev.off()
 
