@@ -20,8 +20,7 @@ str(totalNEI)
 ##Create the plot
 png(filename = './plot1.png')
 plot(names(totalNEI), (totalNEI)/10^6, type = "l", xlab = "Year",
-     ylab="PM2.5 Emissions (10^6 Tons)", main="PM2.5 Emission per Year"
-)
+     ylab="PM2.5 Emissions (10^6 Tons)", main="PM2.5 Emission per Year")
 
 dev.off()
 
